@@ -17,7 +17,6 @@
         }
     } 
     ?>
-
     <input type="number" name="mynum" value ="enter num here... ">
     <input type="submit" name="Submit">
     </form>

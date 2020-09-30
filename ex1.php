@@ -11,7 +11,6 @@
         }
     } 
     ?>
-
     <input type="text" name="myname" value ="enter name here... ">
     <input type="submit" name="Submit">
     </form>
