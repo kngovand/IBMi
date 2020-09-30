@@ -1,5 +1,5 @@
 <html>
-<header><title>ex2</title>
+<header><title>Favorite Number</title>
 </header>
 <body>
     <h2>Enter number: </h2>
