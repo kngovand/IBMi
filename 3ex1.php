@@ -10,13 +10,14 @@
         $array = array(1, 6, 4, 2, 1);
 
         #for each
+        #note: html ignores newlines so replace \n with br
         foreach ($array as $key => $value) {
-            echo "$key $value";
+            echo "key: $key value: $value\n";
         }
 
         #for each2
         foreach ($array as $a) {
-            echo "$a\n";
+            echo "{$a}\n";
         }
     ?>
 </body>

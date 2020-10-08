@@ -14,12 +14,12 @@
                 $counter += 1;
 
                 if ($counter == 10) {
-                    echo "I'm done";
+                    echo "I'm done\n";
                     break;
                 }
                 
-                echo $i;
-                echo $j;
+                echo "i: {$i}\n";
+                echo "j: {$j}\n";
             }
         }
 
