@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-       $a = 1;
+       $a = 2;
        $b = 2;
        
        if($a == 1 or $b == 1) {

@@ -9,7 +9,7 @@
     <?php
         $count = 7;
         while ($count < 40) {
-            echo $count;
+            echo "{$count} ";
             $count += $count / 2;
         }
     ?>

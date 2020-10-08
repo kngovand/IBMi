@@ -8,7 +8,7 @@
 <body>
     <?php
         $value1 = 16;
-        $value2 = 25;
+        $value2 = 20;
 
         if($value1 < 20 || $value2 < 20) {
             echo "one of these values is less than 20...";
