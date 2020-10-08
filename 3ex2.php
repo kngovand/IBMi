@@ -27,10 +27,10 @@
             echo "numeric array size not matching.";
         }
 
-        #associative array
+/*         #associative array
         foreach ($assocArray as $key => $value) {
-            echo "{$key}, {$value}";
-        }
+            echo "{$key}, {$value}\n";
+        } */
 
     ?>
 </body>
