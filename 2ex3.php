@@ -8,7 +8,7 @@
 <body>
     <?php
         for ($i=5; $i<=35 ; $i+=4) { 
-            echo $i;
+            echo "$i\n";
         }
     ?>
 </body>
