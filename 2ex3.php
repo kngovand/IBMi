@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+    #Start at 5, increment by 4, up to/equal to 35
         for ($i=5; $i<=35 ; $i+=4) { 
             echo "$i\n";
         }

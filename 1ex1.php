@@ -1,5 +1,5 @@
 <html>
-<header><title>Hello *name*</title>
+<header><title>Hello $name</title>
 </header>
 <body>
     <form action="ex1.php" method="POST">

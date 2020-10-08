@@ -7,7 +7,6 @@
 </head>
 <body>
 <?php
-    #RPG to PHP Fibbonaci Sequence
     $fibNum = 1;
     $prevNum = 1;
     $currentNum = 1;

@@ -2,7 +2,7 @@
 <header><title>Favorite Number</title>
 </header>
 <body>
-    <h2>Enter number: </h2>
+    <h2>Enter number? </h2>
     <form action="ex2.php" method="POST">
     <?php 
     {
