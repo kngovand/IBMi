@@ -19,7 +19,7 @@
         if(sizeof($capitals) == sizeof($province)) {
             #better way of writing this without foreach?
             for ($i=0; $i < sizeof($capitals) ; $i++) { 
-                echo "{$capitals[$i]}, {$province[$i]} \n ";
+                echo "{$capitals[$i]}, {$province[$i]} <br> ";
             }
         }
 
