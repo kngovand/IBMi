@@ -7,7 +7,20 @@
 </head>
 <body>
     <?php
-    
+        //include dirname("in.txt").'/files';
+        $in = fopen("files/in.txt", "r") or die("unable to open file in");
+        $out = fopen("files/out.txt", "w") or die("unable to open file out");
+
+        $s1 = fread($in, filesize("files/in.txt"));
+
+        echo "{$s1} \n <br>";
+        echo "Now putting into out file...";
+
+        fwrite($out, $s1);
+
+        #closing files
+        fclose($in);
+        fclose($out);
     ?>
 </body>
 </html>
