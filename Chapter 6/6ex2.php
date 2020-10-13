@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        #cannot instantiate abstract class
         abstract class User {
             public function getName() {
                 return 'John';
